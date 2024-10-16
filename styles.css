@@ -1,0 +1,70 @@
+
+/*pagina index*/
+xbc {
+    position: relative;
+  width: 80%;
+  position: absolute;
+}
+
+
+.taniguchi {
+    text-align: center;
+    margin: auto;
+    }
+
+    /*pagina Main*/
+
+/*body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}*/
+header {
+    background: #f2eeee;
+    color: rgb(18, 11, 11);
+    padding: 20px;
+    display: flex;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: rgb(9, 6, 6);
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/*pagina Main*/
+.manabu {
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    align-content: baseline;
+
+}
+
+footer {
+    background: #f20404;
+    color: rgb(249, 239, 239);
+    text-align: center;
+    padding: 10px 0;
+}
